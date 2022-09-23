@@ -7,35 +7,37 @@
 ![result](./images/4-ups-n-downs.png)
 
 ```html
-<div class="wrapper">
-  <div class="box1"></div>
-  <div class="box2"></div>
-  <div class="box3"></div>
+<div class="main">
+ <div class="one"></div> 
+  <div class="two"></div> 
+  <div class="three"></div> 
 </div>
 <style>
-  body {
-    background: #62306D;
+  body{
+    background:#62306D;
   }
-  .wrapper {
-    width: 100%;
-    height: 200px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+  .main{
+    margin:42px
   }
-  div[class^='box'] {
-    background: #F7EC7D;
-    height: 100px;
-    width: 100px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+  .one{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background:#F7EC7D;
+    bottom:50px;
+    border-radius:0 0 50% 50%
   }
-  .box1, .box3 {
-    align-self: flex-end;
+  .two{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background:#F7EC7D;
+    border-radius:50% 50% 0 0 
   }
-  .box2 {
-    transform: rotate(180deg)
-  }
+  
+</style>
+
+
 </style>
 
 ```
