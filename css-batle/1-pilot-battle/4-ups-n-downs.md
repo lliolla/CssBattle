@@ -15,6 +15,7 @@
 <style>
   body{
     background:#62306D;
+    margin-top: 50px
   }
   .main{
     margin:42px
@@ -29,15 +30,25 @@
   }
   .two{
     position:absolute;
+    left:150px;
     width:100px;
     height:100px;
     background:#F7EC7D;
     border-radius:50% 50% 0 0 
   }
+  .three{
+   position:absolute;
+    width:100px;
+    height:100px;
+    background:#F7EC7D;
+    bottom:50px;
+    left:250px;
+    border-radius:0 0 50% 50%
+  }
   
 </style>
 
 
-</style>
+
 
 ```
