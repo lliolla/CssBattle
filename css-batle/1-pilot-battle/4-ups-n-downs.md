@@ -4,7 +4,7 @@
 
 [Lien vers l'exrcice](https://cssbattle.dev/play/4)
 
-![result](./images/4-ups-n-downs.png)
+![result](./images/5-acid-rain.png)
 
 ```html
 <div class="main">
