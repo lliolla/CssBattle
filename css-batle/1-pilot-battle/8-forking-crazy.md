@@ -7,35 +7,34 @@
 ![result](./images/8-forking-crazy.png)
 
 ```html
-<div class='box'>
-  <div class='one'></div>
-  <div class='two'></div>
-  <div class='three'></div>
+<div class="box">
+  <div class="pic-one"></div>
+  <div class="pic-two"></div>
+  <div class="pic-tree"></div>
+  <div class="body"></div>
+  <div class="foot"></div>
 </div>
 <style>
   body{
-    background:#0B2429;
-    margin:75;
+    background:#6592CF;
   }
-  div {
+  .box{
+    margin:50px 100px
+  }.body{
     position:absolute;
-    width: 150px;
-    height: 150px;
-    border-radius: 100px 0;
+    
   }
-  .one{
-    background: #1A4341;
+  .foot {
+    position:absolute;
+    width: 20px;
+    height:10
+0px;
+    background:#060F55;
+    top:200px;
+    right:190px
   }
-  .two{
-    background: #998235;
-    left:50px
-  }
-  
-  .three{
-    background: #F3AC3C;
-    left:100px
+</style>
 
-  }
 
 
 
